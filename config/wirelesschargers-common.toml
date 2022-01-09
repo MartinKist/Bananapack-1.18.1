@@ -1,0 +1,59 @@
+
+[General]
+
+	[General."Basic Wireless Block Charger"]
+		#How much energy should the Basic Wireless Block Charger be able to store?
+		#Requires a world reload
+		#Allowed Range: 1000 ~ 1000000  Default: 25000
+		basicBlockChargerCapacity = 250000
+		#In what range should the Basic Wireless Block Charger power blocks? For example, a range of 1 means a 3x3x3 area.
+		#Requires a world reload
+		#Allowed Range: 1 ~ 5  Default: 2
+		basicBlockChargerRange = 3
+		#How much energy per tick per block should the Basic Wireless Block Charger transfer? 1 second = 20 ticks.
+		#Requires a world reload
+		#Allowed Range: 10 ~ 10000  Default: 50
+		basicBlockChargerTransferRate = 1000
+
+	[General."Advanced Wireless Block Charger"]
+		#How much energy per tick per block should the Advanced Wireless Block Charger transfer? 1 second = 20 ticks.
+		#Requires a world reload
+		#Allowed Range: 10 ~ 10000  Default: 200
+		advancedBlockChargerTransferRate = 10000
+		#In what range should the Advanced Wireless Block Charger power blocks? For example, a range of 1 means a 3x3x3 area.
+		#Requires a world reload
+		#Allowed Range: 1 ~ 5  Default: 3
+		advancedBlockChargerRange = 7
+		#How much energy should the Advanced Wireless Block Charger be able to store?
+		#Requires a world reload
+		#Allowed Range: 1000 ~ 1000000  Default: 100000
+		advancedBlockChargerCapacity = 1000000
+
+	[General."Basic Wireless Player Charger"]
+		#How much energy should the Basic Wireless Player Charger be able to store?
+		#Requires a world reload
+		#Allowed Range: 1000 ~ 1000000  Default: 25000
+		basicPlayerChargerCapacity = 250000
+		#How much energy per tick per block should the Basic Wireless Player Charger transfer? 1 second = 20 ticks.
+		#Requires a world reload
+		#Allowed Range: 10 ~ 10000  Default: 50
+		basicPlayerChargerTransferRate = 1000
+		#In what range should the Basic Wireless Player Charger power players' items? For example, a range of 1 means a 3x3x3 area.
+		#Requires a world reload
+		#Allowed Range: 1 ~ 10  Default: 4
+		basicPlayerChargerRange = 4
+
+	[General."Advanced Wireless Player Charger"]
+		#In what range should the Advanced Wireless Player Charger power players' items? For example, a range of 1 means a 3x3x3 area.
+		#Requires a world reload
+		#Allowed Range: 1 ~ 10  Default: 6
+		advancedPlayerChargerRange = 9
+		#How much energy per tick per block should the Advanced Wireless Player Charger transfer? 1 second = 20 ticks.
+		#Requires a world reload
+		#Allowed Range: 10 ~ 10000  Default: 200
+		advancedPlayerChargerTransferRate = 10000
+		#How much energy should the Advanced Wireless Player Charger be able to store?
+		#Requires a world reload
+		#Allowed Range: 1000 ~ 1000000  Default: 100000
+		advancedPlayerChargerCapacity = 1000000
+
